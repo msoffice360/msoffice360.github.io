@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+html{
+    background: white;
+}
+
+form{
+    width: 100%;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    font-family: "Segoe UI","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+    height: auto;
+   background: linear-gradient(120deg,rgb(253, 239, 242),rgb(227, 238, 241),rgb(231, 247, 231),rgb(247, 234, 209));
+}
+
+.con{
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 80%;
+    max-width: 500px;
+    height: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 440px;
+    width: calc(100% - 40px);
+    margin-bottom: 28px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 6px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 2px 6px rgba(0,0,0,.2);
+    box-shadow: 0 2px 6px rgba(0,0,0,.2);
+    min-width: 320px;
+    min-height: 338px;
+    overflow: hidden;
+    padding: 40px;
+}
+
+
+.con .img{
+    align-items: start;
+}
+
+.con img{
+    width: 50%;
+    
+}
+
+.con h1{
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.name{
+    align-items: center;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.log{
+    width: 100%;
+
+    .e{
+        width: 100%;
+    }
+}
+
+#e,#password{
+    margin-top: 10px;
+    border: none;
+    border-bottom: solid blue 1px;
+    height: 35px;
+    width: 100%;
+    font-size: large;
+}
+
+#e:focus,#password:focus{
+    outline: none;
+}
+
+#e::placeholder,#password::placeholder{
+    color: rgb(167, 167, 167);
+    font-size: 15px;
+}
+
+.a{
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: small;
+    padding-top: 20px;
+}
+
+.b{
+    width: 100%;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 4px 12px 4px 12px;
+    background-color: #005da6;
+    color: #fff;
+    float: right;
+    min-height: 32px;
+    border: none;
+    min-width: 108px;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.message-content{
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+@media (max-width: 860px) {
+    .con{
+        height: auto;
+        padding: 20px;
+        min-height: auto;
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .con{
+        height: auto;
+        padding: 20px;
+        min-height: auto;
+        width: 100%;
+        margin: 0;
+    }
+
+    .container{
+        background: white;
+    }
+
+}
+
+@media (min-width:800px) {
+    footer ul{
+        float: right;
+    }
+
+    ul li{
+        padding-left: 20px;
+    }
+
+    .container{
+        height: 100vh;
+    }
+}

@@ -1,0 +1,156 @@
+.a{
+    color: blue;
+}
+
+body{
+    background: rgb(243, 240, 240);
+}
+
+.log p{
+    margin-top: 0px;
+    font-weight: 400;
+}
+
+.p{
+    color: gray;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    font-family: "Segoe UI","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+    height: auto;
+}
+
+.log h1{
+    font-weight: 500;
+}
+
+.con{
+    height: auto;
+    margin: 10px auto;
+    min-height: auto;
+    width: 95%;
+}
+
+.con2{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.con2 p{
+    padding-left: 10px;
+}
+
+.h1{
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.b{
+    margin-top: 0;
+    width: 100%;
+    align-items: center;
+}
+
+.arrow{
+    margin-top: 0;
+    margin: 10px;
+}
+
+.a{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.back{
+    background-color: gray;
+}
+
+.message-form{
+    width: 100%;
+    padding: 20px;
+}
+
+.log{
+    width: 100%;
+}
+
+.log #e{
+    border-bottom: solid 1px black;
+    width: 100%;
+}
+
+#e, #password {
+    margin-top: 10px;
+    border: none;
+    height: 35px;
+    width: 100%;
+    font-size: large;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: gray;
+    color: aliceblue;
+    height: auto;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 13px;
+    align-items: center;
+    padding: 5px;
+}
+
+#e:focus{
+    background-color: lightblue;
+}
+
+#e{
+    width: 70%;
+}
+
+@media (min-width:800px) {
+    footer ul{
+        float: right;
+    }
+
+    ul li{
+        padding-left: 20px;
+    }
+
+    .container{
+        height: 100vh;
+    }
+
+    .con{
+        height: auto;
+        padding: 20px;
+        min-height: auto;
+        width: 100%;
+        margin: 0;
+    }
+
+    body{
+        background-color: white;
+    }
+}
