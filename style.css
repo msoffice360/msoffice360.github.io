@@ -4,6 +4,7 @@
 
 body{
     background: rgb(243, 240, 240);
+    text-transform: capitalize;
 }
 
 .log p{
@@ -28,7 +29,7 @@ a{
     gap: 10px;
     align-items: center;
     font-family: "Segoe UI","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
-    height: auto;
+    height: 100vh;
 }
 
 .log h1{
@@ -129,7 +130,12 @@ footer ul{
     width: 70%;
 }
 
-@media (min-width:800px) {
+@media (max-width:800px) {
+
+    .h1{
+        font-size: 2.5rem;
+    }
+
     footer ul{
         float: right;
     }
@@ -140,6 +146,7 @@ footer ul{
 
     .container{
         height: 100vh;
+        justify-content: start;
     }
 
     .con{
@@ -152,5 +159,36 @@ footer ul{
 
     body{
         background-color: white;
+    }
+
+    .message-form{
+        padding: 0px;
+    }
+
+    .log #e {
+        border-bottom: solid 1px black;
+        width: 100%;
+        margin: 5px auto;
+
+        &::placeholder{
+            font-size: 15px;
+        }
+    }
+
+    .con2{
+        padding: 10px;
+        width: 90%;
+        margin: 0 auto;
+        min-width: 200px;
+        border: solid 1px gray;
+        p{
+            color: gray;
+        }
+    }
+
+    .log p {
+        margin-top: 5px;
+        font-weight: 400;
+        font-size: 13px;
     }
 }
